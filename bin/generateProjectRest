@@ -1,0 +1,11 @@
+#!/bin/bash
+
+function main() {
+    mvn archetype:generate \
+        -DarchetypeArtifactId=spring-rest-archetype \
+        -DarchetypeGroupId=com.protonmail.mateuszkucharczyk.archetypes \
+        -DarchetypeVersion=1.0-SNAPSHOT \
+        "$@";
+}
+
+main "$@";
