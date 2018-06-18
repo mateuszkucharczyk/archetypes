@@ -15,7 +15,7 @@ target/
 
     <requiredProperties>
         <requiredProperty key="groupId">
-            <defaultValue>com.protonmail.mateuszkucharczyk</defaultValue>
+            <defaultValue>'"${groupId}"'</defaultValue>
         </requiredProperty>
         <requiredProperty key="artifactId">
         </requiredProperty>
